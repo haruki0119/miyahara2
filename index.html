@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miyahara_web</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <h1>卒業研究WEBサイト</h1>
+            <div class="nav-links">
+                <ul>
+                    <li>学籍番号:217016</li>
+                    <li>氏名:澤　治輝</li>
+                </ul>
+            </div>
+        </nav>
+                <div class="timer" id="timer">
+            残り時間&nbsp;
+            <div class="min" id="min">
+                5
+            </div>
+            :
+            <div class="sec" id="sec">
+                00
+            </div>
+        </div>
+        <div class="screen" id="screen">
+            <div class="box2 hidden3" id="ank">
+                <p>
+                    ⑤最後にアンケートのご協力をお願いします。
+                </p>
+                <form action="" method="post">
+                    <div class="item">
+                        <label class="label">お名前</label>
+                        <input type="text" class="inputs" name="name" required>
+                    </div>
+                    <div class="item">
+                        <label class="label">・当アプリの使い心地はどうでしたか？</label>
+                        <br>
+                        <input type="radio" id="que1-1" name="menu" value="que1-1" />
+                        <label for="que1-1">非常に使いやすかった</label>
+                        <br>
+                        <input type="radio" id="que1-2" name="menu" value="que1-2" />
+                        <label for="que1-2">使いやすかった</label>
+                        <br>
+                        <input type="radio" id="que1-3" name="menu" value="que1-3" />
+                        <label for="que1-3">使いにくかった</label>
+                        <br>
+                        <input type="radio" id="que1-4" name="menu" value="que1-4" />
+                        <label for="que1-4">非常に使いにくかった</label>
+                    </div>
+                    <div class="item">
+                        <label class="label">・どちらの教材が分かりやすかった？</label>
+                        <br>
+                        <input type="radio" id="que2-1" name="menu" value="que2-1" />
+                        <label for="que2-1">ショート動画教材</label>
+                        <br>
+                        <input type="radio" id="que2-2" name="menu" value="que2-2" />
+                        <label for="que2-2">テキスト教材</label>
+                        <br>
+                        <input type="radio" id="que2-3" name="menu" value="que2-3" />
+                        <label for="que2-3">どちらともいえない</label>
+                    </div>
+                    <div class="item">
+                        <label class="label">・どちらの教材が継続しやすいと感じましたか？</label>
+                        <br>
+                        <input type="radio" id="que3-1" name="menu" value="que3-1" />
+                        <label for="que3-1">ショート動画教材</label>
+                        <br>
+                        <input type="radio" id="que3-2" name="menu" value="que3-2" />
+                        <label for="que3-2">テキスト教材</label>
+                        <br>
+                        <input type="radio" id="que3-3" name="menu" value="que3-3" />
+                        <label for="que3-3">どちらともいえない</label>
+                    </div>
+                    <div class="item">
+                        <label class="label">・苦手な問題はありましたか？</label>
+                        <br>
+                        <input type="radio" id="que4-1" name="menu" value="que4-1" />
+                        <label for="que4-1">問題1</label>
+                        <br>
+                        <input type="radio" id="que4-2" name="menu" value="que4-2" />
+                        <label for="que4-2">問題2</label>
+                        <br>
+                        <input type="radio" id="que4-3" name="menu" value="que4-3" />
+                        <label for="que4-3">問題3</label>
+                        <br>
+                        <input type="radio" id="que4-4" name="menu" value="que4-4" />
+                        <label for="que4-4">問題4</label>
+                        <br>
+                        <input type="radio" id="que4-5" name="menu" value="que4-5" />
+                        <label for="que4-5">問題5</label>
+                        <br>
+                        <input type="radio" id="que4-6" name="menu" value="que4-6" />
+                        <label for="que4-6">問題6</label>
+                        <br>
+                        <input type="radio" id="que4-7" name="menu" value="que4-7" />
+                        <label for="que4-7">問題5</label>
+                        <br>
+                        <input type="radio" id="que4-8" name="menu" value="que4-8" />
+                        <label for="que4-8">特になし</label>
+                    </div>
+                    <div class="item">
+                        <label class="label">・「手話」に関して以前から知識はあったか？</label>
+                        <br>
+                        <input type="radio" id="que5-1" name="menu" value="que5-1" />
+                        <label for="que5-1">全く知らなかった</label>
+                        <br>
+                        <input type="radio" id="que5-2" name="menu" value="que5-2" />
+                        <label for="que5-2">少し知識があった</label>
+                        <br>
+                        <input type="radio" id="que5-3" name="menu" value="que5-3" />
+                        <label for="que5-3">深い知識があった</label>
+                    </div>
+                    <div class="item">
+                        <label class="label">・その他感想やご意見</label>
+                        <br>
+                        <textarea type="text" cols="40" rows="4" class="inputs" placeholder="感想はこちら"></textarea>
+                    </div>
+                    <div class="button-area">
+                        <input type="submit" value="アンケートを送信する">
+                    </div>
+                </form>
+            </div>
+            <div class="box hidden2 test" id="test">
+                <div>
+                    以上で動画は終了です。<br>引き続きテストのご協力をお願いします。
+                </div>
+                <a href="#" class="finish" id="finish">
+                    テストを終了した。
+                </a>
+            </div>
+            <div class="box hidden" id="box">
+                <div class="question">動画の理解度はどれくらいか？</div>
+                <div class="answer">
+                    <a href="#" id="answer1">
+                        完璧に理解できた
+                    </a>
+                </div>
+                <div class="answer">
+                    <a href="#" id="answer2">
+                        ほとんど理解できた
+                    </a>
+                </div>
+                <div class="answer">
+                    <a href="#" id="answer3">
+                        あまり理解できなかった
+                    </a>
+                </div>
+                <div class="answer">
+                    <a href="#" id="answer4">
+                        全く理解できなかった
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="eva_button" id="back" onclick="window.history.back();">
+                前の動画
+            </a>
+            <div class="frame">
+                <video src="image/syuwa1.mp4" controls autoplay class="movie" id="movie" alt=""></video>
+            </div>
+            <a href="#" class="eva_button" id="next">
+                次の動画
+            </a>
+        </div>
+        <div class="clear">
+            <div class="rikai">進行度</div>
+            <div class="bar" id="bar"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+<!--
+今日は元気ですか？
+具合悪いんですけど
+どうしましたか？
+-->
