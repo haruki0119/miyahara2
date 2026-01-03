@@ -37,7 +37,7 @@ back.addEventListener('click', function() {
     count--;
     review.pop();
     movie.src = images[count];
-    bar.style.width = count * 4.2 + "vw";
+    bar.style.width = count * 2.5 + "vw";
     }
 })
 
@@ -45,42 +45,42 @@ answer1.addEventListener('click', function() {
     if (count === 14) {
         openBox();
         count++;
-        bar.style.width = count * 4.2 + "vw";
+        bar.style.width = count * 2.5 + "vw";
         test.classList.toggle('hidden2');
     } else {
     openBox();
     count++;
     review.push('4');
     movie.src = images[count];
-    bar.style.width = count * 4.2 + "vw";
+    bar.style.width = count * 2.5 + "vw";
     }
 })
 answer2.addEventListener('click', function() {
     if (count === 14) {
         openBox();
         count++;
-        bar.style.width = count * 4.2 + "vw";
+        bar.style.width = count * 2.5 + "vw";
         test.classList.toggle('hidden2');
     } else {
     openBox();
     count++;
     review.push('3');
     movie.src = images[count];
-    bar.style.width = count * 4.2 + "vw";
+    bar.style.width = count * 2.5 + "vw";
     }
 })
 answer3.addEventListener('click', function() {
     if (count === 14) {
         openBox();
         count++;
-        bar.style.width = count * 4.2 + "vw";
+        bar.style.width = count * 2.5 + "vw";
         test.classList.toggle('hidden2');
     } else {
     openBox();
     count++;
     review.push('2');
     movie.src = images[count];
-    bar.style.width = count * 4.2 + "vw";
+    bar.style.width = count * 2.5 + "vw";
     }
 })
 
@@ -88,14 +88,14 @@ answer4.addEventListener('click', function() {
     if (count === 14) {
         openBox();
         count++;
-        bar.style.width = count * 4.2 + "vw";
+        bar.style.width = count * 2.5 + "vw";
         test.classList.toggle('hidden2');
     } else {
     openBox();
     count++;
     review.push('1');
     movie.src = images[count];
-    bar.style.width = count * 4.2 + "vw";
+    bar.style.width = count * 2.5 + "vw";
     }
 })
 

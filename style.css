@@ -163,56 +163,46 @@ textarea {
 }
 .screen {
     height: 70vh;
-    width: 90vw;
-    margin: 0 5vw;
+    width: 100vw;
+    margin: 0;
     display: flex;
     justify-content: space-between;
 }
 .eva_button {
-    width: 16vw;
-    height: 16vw;
+    width: 15vw;
+    height: 15vw;
     background-color: #fff;
-    margin: 5px;
-    margin-top: 28vh;
+    margin: 5px 5vw;
     border-radius: 50%;
     text-align: center;
     align-items: center;
     font-weight: 1000;
-    line-height: 16vw;
+    line-height: 15vw;
     border: 3px solid #333;
-}
-@media screen and (min-width: 767px) {
-    .eva_button {
-        width: 150px;
-        height: 150px;
-        font-size: 20px;
-        line-height: 150px;
-        margin-top: 140px;
-    }
 }
 .frame {
     height: 70vh;
     aspect-ratio: 9 / 16;
     background-color: #333;
+    margin: 0 auto;
 }
 .movie {
-
     height: 69vh;
     margin: 0.5vh;
     aspect-ratio: 9 / 16;
 }
 /* clear */
 .clear {
-    margin: 5vh auto 3vh auto;
+    margin: 4vh auto;
     height: 10vh;
     border: #fff 1px solid;
-    width: 90vw;
+    width: 60vw;
     background-color: #fff;
     border-radius: 50px;
     display: flex;
 }
 .rikai {
-    width: 20vw;
+    width: 15vw;
     text-align: center;
     line-height: 10vh;
     font-weight: bold;
@@ -298,24 +288,27 @@ h2 {
     padding: 7.5px;
     border-radius: 5px;
 }
+.button-flex {
+    display: flex;
+    height: 20vh;
+}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     ul li {
         font-size: 0.8em;
     }
     .eva_button {
-        width: 45px;
-        height: 45px;
-        font-size: 9px;
-        line-height: 30px;
-        margin-top: 30vh;
-        padding-top: 4px;
+        font-size: 10px;
     }
-    .screen {
-        width: 100vw;
-        margin-left: 0;
+    .timer {
+        top: 6vh;
+        height: 40px;
+        font-size: 18px;
+    }
+    .rikai {
+        font-size: 15px;
     }
 }
