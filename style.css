@@ -302,6 +302,7 @@ h2 {
     }
     .eva_button {
         font-size: 10px;
+        margin-top: 20px;
     }
     .timer {
         top: 6vh;
@@ -310,5 +311,26 @@ h2 {
     }
     .rikai {
         font-size: 15px;
+    }
+    .screen {
+        height: 75vh;
+    }
+    .frame {
+        height: 75vh;
+    }
+    .movie {
+        height: 74vh;
+    }
+    .button-flex {
+        height: 15vh;
+    }
+    .clear {
+        height: 7vh;
+    }
+    .rikai {
+        line-height: 7vh;
+    }
+    .bar {
+        margin: 1.6vh auto 1.4vh 10px;
     }
 }
