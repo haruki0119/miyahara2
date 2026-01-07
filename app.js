@@ -38,7 +38,7 @@ back.addEventListener('click', function() {
     count--;
     review.pop();
     movie.src = images[count];
-    bar.style.width = count * 2.5 + "vw";
+    bar.style.width = count * 2.4 + "vw";
     }
 })
 
@@ -47,7 +47,7 @@ answer1.addEventListener('click', function() {
         openBox();
         count++;
         review.push('4');
-        bar.style.width = count * 2.5 + "vw";
+        bar.style.width = count * 2.4 + "vw";
         test.classList.toggle('hidden2');
         rikaido.textContent = review.join(",");
     } else {
@@ -55,7 +55,7 @@ answer1.addEventListener('click', function() {
     count++;
     review.push('4');
     movie.src = images[count];
-    bar.style.width = count * 2.5 + "vw";
+    bar.style.width = count * 2.4 + "vw";
     }
 })
 answer2.addEventListener('click', function() {
@@ -63,7 +63,7 @@ answer2.addEventListener('click', function() {
         openBox();
         count++;
         review.push('3');
-        bar.style.width = count * 2.5 + "vw";
+        bar.style.width = count * 2.4 + "vw";
         test.classList.toggle('hidden2');
         rikaido.textContent = review.join(",");
     } else {
@@ -71,7 +71,7 @@ answer2.addEventListener('click', function() {
     count++;
     review.push('3');
     movie.src = images[count];
-    bar.style.width = count * 2.5 + "vw";
+    bar.style.width = count * 2.4 + "vw";
     }
 })
 answer3.addEventListener('click', function() {
@@ -79,7 +79,7 @@ answer3.addEventListener('click', function() {
         openBox();
         count++;
         review.push('2');
-        bar.style.width = count * 2.5 + "vw";
+        bar.style.width = count * 2.4 + "vw";
         test.classList.toggle('hidden2');
         rikaido.textContent = review.join(",");
     } else {
@@ -87,7 +87,7 @@ answer3.addEventListener('click', function() {
     count++;
     review.push('2');
     movie.src = images[count];
-    bar.style.width = count * 2.5 + "vw";
+    bar.style.width = count * 2.4 + "vw";
     }
 })
 
@@ -96,7 +96,7 @@ answer4.addEventListener('click', function() {
         openBox();
         count++;
         review.push('1');
-        bar.style.width = count * 2.5 + "vw";
+        bar.style.width = count * 2.4 + "vw";
         test.classList.toggle('hidden2');
         rikaido.textContent = review.join(",");
     } else {
@@ -104,7 +104,7 @@ answer4.addEventListener('click', function() {
     count++;
     review.push('1');
     movie.src = images[count];
-    bar.style.width = count * 2.5 + "vw";
+    bar.style.width = count * 2.4 + "vw";
     }
 })
 
