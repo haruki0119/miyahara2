@@ -76,6 +76,9 @@ li {
 .item {
     margin: 15px 30px;
 }
+.none {
+    display: none;
+}
 textarea {
     margin: 10px;
 }

@@ -32,7 +32,8 @@
                 <p>
                     ⑤最後にアンケートのご協力をお願いします。
                 </p>
-                <form action="" method="post">
+                <form action="https://api.staticforms.dev/submit" method="post">
+                    <input type="hidden" name="apiKey" value="sf_lhd5a32en5a9d8jbeikkil33" />
                     <div class="item">
                         <label class="label">お名前</label>
                         <input type="text" class="inputs" name="name" required>
@@ -119,6 +120,10 @@
                         <label class="label">・その他感想やご意見</label>
                         <br>
                         <textarea type="text" cols="40" rows="4" class="inputs" placeholder="感想はこちら"></textarea>
+                    </div>
+                    <div class="item none">
+                        <label class="label" id="rikaido">理解度</label>
+                        <input type="text" class="inputs" name="rikai">
                     </div>
                     <div class="button-area">
                         <input type="submit" value="アンケートを送信する">

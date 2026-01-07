@@ -10,6 +10,7 @@ const answer4 = document.getElementById("answer4");
 const movie = document.getElementById("movie");
 const bar = document.getElementById("bar");
 const ank = document.getElementById("ank");
+const rikaido = document.getElementById("rikaido");
 
 //movieChange
 
@@ -18,7 +19,7 @@ let count = 0;
 
 //評価
 
-let review = []
+const review = []
 
 // openBox
 next.addEventListener('click', openBox);
@@ -45,8 +46,10 @@ answer1.addEventListener('click', function() {
     if (count === 14) {
         openBox();
         count++;
+        review.push('4');
         bar.style.width = count * 2.5 + "vw";
         test.classList.toggle('hidden2');
+        rikaido.textContent = review.join(",");
     } else {
     openBox();
     count++;
@@ -59,8 +62,10 @@ answer2.addEventListener('click', function() {
     if (count === 14) {
         openBox();
         count++;
+        review.push('3');
         bar.style.width = count * 2.5 + "vw";
         test.classList.toggle('hidden2');
+        rikaido.textContent = review.join(",");
     } else {
     openBox();
     count++;
@@ -73,8 +78,10 @@ answer3.addEventListener('click', function() {
     if (count === 14) {
         openBox();
         count++;
+        review.push('2');
         bar.style.width = count * 2.5 + "vw";
         test.classList.toggle('hidden2');
+        rikaido.textContent = review.join(",");
     } else {
     openBox();
     count++;
@@ -88,8 +95,10 @@ answer4.addEventListener('click', function() {
     if (count === 14) {
         openBox();
         count++;
+        review.push('1');
         bar.style.width = count * 2.5 + "vw";
         test.classList.toggle('hidden2');
+        rikaido.textContent = review.join(",");
     } else {
     openBox();
     count++;
@@ -98,6 +107,10 @@ answer4.addEventListener('click', function() {
     bar.style.width = count * 2.5 + "vw";
     }
 })
+
+//行列を送信
+
+
 
 finish.addEventListener('click', function() {
     test.classList.toggle('hidden2');
