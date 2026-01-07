@@ -49,7 +49,7 @@ answer1.addEventListener('click', function() {
         review.push('4');
         bar.style.width = count * 2.4 + "vw";
         test.classList.toggle('hidden2');
-        rikaido.textContent = review.join(",");
+        rikaido.value = review.join(",");
     } else {
     openBox();
     count++;
@@ -65,7 +65,7 @@ answer2.addEventListener('click', function() {
         review.push('3');
         bar.style.width = count * 2.4 + "vw";
         test.classList.toggle('hidden2');
-        rikaido.textContent = review.join(",");
+        rikaido.value = review.join(",");
     } else {
     openBox();
     count++;
@@ -81,7 +81,7 @@ answer3.addEventListener('click', function() {
         review.push('2');
         bar.style.width = count * 2.4 + "vw";
         test.classList.toggle('hidden2');
-        rikaido.textContent = review.join(",");
+        rikaido.value = review.join(",");
     } else {
     openBox();
     count++;
@@ -98,7 +98,7 @@ answer4.addEventListener('click', function() {
         review.push('1');
         bar.style.width = count * 2.4 + "vw";
         test.classList.toggle('hidden2');
-        rikaido.textContent = review.join(",");
+        rikaido.value = review.join(",");
     } else {
     openBox();
     count++;
