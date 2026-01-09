@@ -81,6 +81,7 @@ li {
 }
 textarea {
     margin: 10px;
+    width: 80%;
 }
 .button-area {
     margin-bottom: 15px;
